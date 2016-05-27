@@ -30,6 +30,10 @@ window.onload=function(){
 
     var canvas=document.getElementById("canvas");
     var context=canvas.getContext("2d");
+    
+    document.getElementById("body").onclick=function(){
+		playBGM();
+	};
 
     context.width=WINDOW_WIDTH;
     context.height=WINDOW_HEIGHT;
